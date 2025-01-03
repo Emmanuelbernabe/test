@@ -7,7 +7,7 @@ import Swiper from "swiper/bundle";
 import 'swiper/css/bundle';
 
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother, SplitText, SplitType);
-function home() {
+function referrals() {
 
     // smooth scroll
     document.addEventListener('DOMContentLoaded', () => {
