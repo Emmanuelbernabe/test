@@ -1,3 +1,5 @@
+/*
+
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
 import { ScrollSmoother } from "gsap/all";
@@ -1269,3 +1271,6 @@ gsap.to(".c-img-cta-footer.cc-one", {
 }
 
 export default home
+
+
+*/
