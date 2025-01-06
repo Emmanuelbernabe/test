@@ -130,58 +130,6 @@ gsap.fromTo(".c-letter-wrapper", {
         }
       })
 
-// Move author
-
-gsap.fromTo(".c-author-wrapper", {
-    y: '5rem',
-    opacity: 0
-  }, {
-    y:'0rem', 
-    duration: 0.8,
-    opacity: 1,
-    scrollTrigger:{
-      trigger:'.c-author-wrapper',
-      start: 'bot 95%',                    
-      toggleActions: "play none none reverse",
-    }
-  });  
-
- // PHOTO TEAM ANIMATION
-
-window.addEventListener('load', function() {
-gsap.utils.toArray(".c-team-img-wrapper").forEach((element, index) => {
-    gsap.from(element, {
-      opacity: 0,
-      y: "6.25rem",
-      duration: 1,
-      ease: "power3.out",
-      scrollTrigger: {
-        trigger: element,
-        start: "top 80%", 
-        toggleActions: "play none none reverse",
-        stagger: 0.2 * index 
-      }
-    });
-  }); 
-});
-
-  window.addEventListener('load', function() {
-  gsap.utils.toArray(".c-team-photo-container").forEach((element, index) => {
-    gsap.from(element, {
-      opacity: 0,
-      y: "6.25rem",
-      duration: 1,
-      ease: "power3.out",
-      scrollTrigger: {
-        trigger: element,
-        start: "top 80%", 
-        toggleActions: "play none none reverse",
-        stagger: 0.2 * index 
-      }
-    });
-  }); 
-});
-
 
 // footer cta 
 
