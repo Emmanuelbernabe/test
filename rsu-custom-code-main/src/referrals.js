@@ -4,7 +4,7 @@ import { ScrollSmoother } from "gsap/all";
 import { SplitText } from "gsap/all";
 
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother, SplitText);
-function about() { 
+function referrals() { 
 
      // smooth scroll
      document.addEventListener('DOMContentLoaded', () => {
@@ -393,4 +393,4 @@ gsap.to(".c-img-cta-footer.cc-one", {
       
     }
 
-export default about
+export default referrals
