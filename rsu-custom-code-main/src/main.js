@@ -30,6 +30,7 @@ import webinars from './webinars'
 import confirmation from './confirmation'
 import webinartemplate from './webinartemplate'
 import videotemplate from './videotemplate'
+import referrals from './referrals'
 
 let isHome = document.querySelector('body').classList.contains('body--home')
 if(isHome){
@@ -159,5 +160,10 @@ if(isConfirmation){
 let isVideotemplate = document.querySelector('body').classList.contains('body--videotemplate')
 if(isVideotemplate){
   videotemplate()
+}
+
+let isReferrals = document.querySelector('body').classList.contains('body--referrals')
+if(isReferrals){
+  referrals()
 }
 
